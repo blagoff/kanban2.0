@@ -1,0 +1,21 @@
+* { text-align: center; font-family: 'Staatliches', cursive; list-style-type: none; }
+
+h1 { left: 50%; font-size: 30px; color: white; }
+
+body { background-color: #424242; }
+
+.column-container { max-width: 400px; display: -ms-flexbox; display: flex; -ms-flex-pack: justify; justify-content: space-between; }
+
+.create-column { top: 100px; width: 100px; }
+
+.card-description { background-color: DodgerBlue; border: 1px solid green; width: 200px; height: 200px; margin-left: 5px; display: inline-block; }
+
+.column-card-list { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.add-card { margin-top: 100px; background-color: green; }
+
+.card { display: -ms-flexbox; display: flex; -ms-flex-align: baseline; align-items: baseline; }
+
+.column { min-height: 300px; min-width: 300px; }
+
+.create-column {width: 150px; height: 50px; color: white; background-color: orange; }
